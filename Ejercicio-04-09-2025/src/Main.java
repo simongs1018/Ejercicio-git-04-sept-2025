@@ -14,7 +14,8 @@ public class Main {
                     "#2 : Tres dados \n" +
                     "#3 : IMC \n" +
                     "#4 : Adivinar número \n" +
-                    "#5 : Salir");
+                    "#5 : carreraEntre2Corredores \n" +
+                    "#6 : Salir");
             ingreso = entrada.nextInt();
             switch (ingreso) {
                 case 1:
@@ -30,12 +31,14 @@ public class Main {
                     adivinarNumero();
                     break;
                 case 5:
+                    carreraEntre2Corredores();
+                case 6:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");
             }
-        } while (ingreso != 5);
+        } while (ingreso != 6);
         entrada.close();
     }
 
@@ -125,5 +128,45 @@ public class Main {
                 System.out.println("¡Correcto! El número era " + numero);
             }
         } while (intento != numero);
+    }
+    public static void carreraEntre2Corredores() {
+
+        int corredor1 = 0;
+        boolean b = corredor1 < 50;
+        int corredor2 = 0;
+        b = corredor2 < 50;
+
+        boolean b1 = corredor1 >= 50;
+        while true, corredor2 < 50;:
+    Turno del corredor1
+        paso1 = random.randint(1, 6)
+        if paso1 == 6:
+        corredor1 -= 2
+        elif paso1 == 3:
+        corredor1 += 3
+    else:
+        corredor1 += paso1
+        corredor1 = max(corredor1, 0)  # Evitar valores negativos
+
+    String  Turno delcorredor2;
+        paso2 = random.randint(1, 6)
+        if paso2 == 6:
+        corredor2 -= 2
+        elif paso2 == 3:
+        corredor2 += 3
+    else:
+        corredor2 += paso2
+        corredor2 = max(corredor2, 0)
+
+    # Mostrar progreso
+        print(f"Corredor 1: {corredor1} pasos | Corredor 2: {corredor2} pasos")
+
+  String Determinarganador;
+        if corredor1 >= 50 and corredor2 >= 50:
+        String("¡Empate! Ambos corredores llegaron al mismo tiempo.");
+        else if corredor1 >= 50:
+        String("¡Corredor 1 gana la carrera!");
+else:
+        String("¡Corredor 2 gana la carrera!");
     }
 }

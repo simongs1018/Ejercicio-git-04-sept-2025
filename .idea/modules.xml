@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejemplos _POO_13_de_sept_2025/Ejemplos _POO_13_de_sept_2025.iml" filepath="$PROJECT_DIR$/Ejemplos _POO_13_de_sept_2025/Ejemplos _POO_13_de_sept_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicio-04-09-2025/Ejercicio-04-09-2025.iml" filepath="$PROJECT_DIR$/Ejercicio-04-09-2025/Ejercicio-04-09-2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejemplos java.iml" filepath="$PROJECT_DIR$/ejemplos java.iml" />
     </modules>
